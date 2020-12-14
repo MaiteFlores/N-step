@@ -181,7 +181,7 @@ def create_maze(maze):
     #fig.tight_layout()
     #plt.show()
     plt.ion()
-    plt.pause(0.25)
+    plt.pause(0.15)
     plt.show()
     return img
 
