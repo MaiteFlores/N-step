@@ -111,9 +111,10 @@ class Maze(object):
         
 
     def check_move(self,cell = NONE):
-
+        #take saved state 
         if cell is NONE:
             cur_xcor, cur_ycor, mode = self.state
+         #take position passed
         else:
             cur_xcor, cur_ycor = cell
 
