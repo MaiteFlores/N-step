@@ -30,8 +30,8 @@ class Maze(object):
         self._maze = np.array(maze)
         x,y = self._maze.shape
         self.goal = (x-1,y-1)
-        self.empty =[(r,c) for r in range(x) for c in range(y) if self._maze[r,c] == 1.0]
-        self.border = [[(r,c) for r in range(x) for c in range(y) if self._maze[r,c] == 0.0]]
+        #self.empty =[(r,c) for r in range(x) for c in range(y) if self._maze[r,c] == 1.0]
+        #self.border = [[(r,c) for r in range(x) for c in range(y) if self._maze[r,c] == 0.0]]
         #self.visited_square = []
         self.restart(runner)
 
